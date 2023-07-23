@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url(images/background-bg-two.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.countVC-area {
+  background: #fff;
+  display: inline-block;
+  padding: 30px;
+  height: 350px;
+  border-radius: 5px;
+}
+.countVC-area h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.input-string input {
+  height: 45px;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  padding: 0px 15px;
+  position: relative;
+  background: #f7f8f9;
+  border: 1px solid #c4c4c4;
+}
+.input-string input:focus {
+  outline: none;
+  box-shadow: 0 10px 10px rgba(0, 123, 255, 0.09);
+}
+.input-string button {
+  background: #0088ff;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 20px 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  position: absolute;
+  top: 44%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#result {
+  margin-top: 70px;
+}
+#result p {
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #787777;
+  margin: 9px 0;
+}
+#result h3 {
+  text-align: center;
+  font-weight: 700;
+  background: #bc1792;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+#result span {
+  color: #016a01;
+  font-weight: 800;
+}
